@@ -1,0 +1,24 @@
+.s-fp__fig {
+    border-radius: 10px;
+    width: 30%;
+}
+.s-fp__fig--img {
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+.s-fp__figcaption {
+    padding-top: 10px;
+    width: 100%;
+}
+.s-fp__figcaption--h2 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.s-fp__figcaption--p {
+    margin-top: 1rem;
+    line-height: 20px;
+    text-align: justify;
+}

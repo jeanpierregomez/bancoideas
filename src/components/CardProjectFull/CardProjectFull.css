@@ -1,0 +1,37 @@
+.s-cp__fig {
+    align-items: center;
+    border-radius: 15px;
+    border: 3px solid transparent;
+    display: flex;
+    margin-top: 3.5rem;
+    transition: .5s;
+}
+.s-cp__fig:hover {
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+}
+.s-cp__fig--img {
+    border-radius: 15px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    width: 35%;
+}
+.s-cp__figcaption {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+    width:65%;
+}
+.s-cp__figcaption--h2 {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.s-cp__figcaption--p {
+    color: #ffffff;
+    font-size: 16px;
+    margin-top: 1rem;
+    text-align: justify;
+}

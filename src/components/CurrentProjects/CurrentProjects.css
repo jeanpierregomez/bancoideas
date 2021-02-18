@@ -1,0 +1,15 @@
+.s-cp {
+    background-color: var(--black);
+    width: 100%;
+}
+.s-cp__art {
+    padding-top: 5rem;
+    margin: 0 auto;
+    width: 75%;
+}
+.s-cp__h1 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+}

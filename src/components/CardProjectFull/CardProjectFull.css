@@ -4,6 +4,7 @@
     border: 3px solid transparent;
     display: flex;
     margin-top: 3.5rem;
+    overflow: hidden;
     transition: .5s;
 }
 .s-cp__fig:hover {
@@ -11,7 +12,6 @@
     border-radius: 20px;
 }
 .s-cp__fig--img {
-    border-radius: 15px;
     height: 250px;
     object-fit: cover;
     object-position: center;

@@ -1,0 +1,26 @@
+.s-sp { width: 100%; }
+.s-sp__art {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 65px 0;
+    width: 90%;
+}
+.s-sp__ico {
+    align-items: center;
+    background-color: var(--black);
+    border-radius: 10px;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-right: 1.5rem;
+    width: 70px;
+}
+.s-sp__ico i {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+.s-sp__ico-two {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}

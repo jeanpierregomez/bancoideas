@@ -1,0 +1,35 @@
+.s-sp__div {
+    border-radius: 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 5px 0px 13px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 5px 0px 13px 0px rgba(0,0,0,0.16);
+    box-shadow: 5px 0px 13px 0px rgba(0,0,0,0.16);
+    width: 100%;
+}
+.s-sp__fig {
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    width: 100%;
+}
+.s-sp__fig--img {
+    object-fit: cover;
+    object-position: center;
+    height: 450px;
+    width: 35%;
+}
+.s-sp__figcap {
+    padding: 0 4rem;
+    width: 65%;
+}
+.s-sp__figcap--h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 27px;
+}
+.s-sp__figcap--p {
+    font-size: 16px;
+    padding: 25px 0 25px 0;
+}
+.s-sp__figcap--a { color: var(--blue) }
+.s-sp__figcap--a:hover { text-decoration: underline; }

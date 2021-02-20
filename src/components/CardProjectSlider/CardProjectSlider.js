@@ -2,7 +2,7 @@ import "./CardProjectSlider.css"
 
 export default function CardProjectSlider ({ project }) {
     return (
-        <div data-aos="fade-up" className="s-sp__div">
+        <div className="s-sp__div">
             <figure className="s-sp__fig">
                 <img className="s-sp__fig--img" src={project.image}/>
                 <figcaption className="s-sp__figcap">

@@ -12,6 +12,7 @@
     position: absolute;
     top: 0;
     z-index: 0;
+    width: 100%;
 }
 .s-header {
     margin: 0 auto;
@@ -22,9 +23,7 @@
     left: 0;
     z-index: 1;
 }
-.s-header__art {
-    width: 50%;
-}
+.s-header__art { width: 50%; }
 .s-header__art--h1 {
     color: #ffff;
     font-size: 3rem;
@@ -35,6 +34,4 @@
     padding: 15px 0px 30px 0;
 }
 .s-header__art--p b {color: #ffffff;}
-.s-header__div {
-    display: flex;
-}
+.s-header__div { display: flex; }

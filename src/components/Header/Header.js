@@ -18,7 +18,7 @@ export default function Header () {
                     </div>            
                 </article>
             </section>
-            <video src="/image/video.mp4" autoplay="1" loop></video>
+            <video src="/image/video.mp4" autoPlay="1" loop></video>
         </header>
     ); 
 } 

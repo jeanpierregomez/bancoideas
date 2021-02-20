@@ -1,7 +1,5 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Footer from "./components/Layout/Footer/Footer";
+import Index from "./pages/home/index";
 import { useRef } from "react";
 
 export default function App() {
@@ -23,9 +21,7 @@ export default function App() {
 	return (
 		<div className="App">
 			<div className="cursor" ref={cursor}></div>
-			<Header />
-			<Main />
-			<Footer />
+			<Index />
 		</div>
 	);
 }

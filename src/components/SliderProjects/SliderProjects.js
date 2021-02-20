@@ -10,13 +10,11 @@ export default function SliderProjects() {
 	return (
 		<section className="s-sp">
 			<article className="s-sp__art">
-				<div className="s-sp__ico">
-					<i className="fas fa-caret-left"></i>
-				</div>
+			{/* data-aos="fade-right" */}
+				<i  class="fas fa-caret-square-left"></i>
 				{<CardProjectSlider project={finishedProjects[0]} />}
-				<div className="s-sp__ico s-sp__ico-two">
-					<i className="fas fa-caret-right"></i>
-				</div>
+				<i  class="fas fa-caret-square-right"></i>
+				{/* data-aos="fade-left" */}
 			</article>
 		</section>
 	);

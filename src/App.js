@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/Layout/Footer/Footer";
 import { useRef } from "react";
 
 export default function App() {

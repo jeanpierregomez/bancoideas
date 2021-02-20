@@ -10,6 +10,7 @@
     margin: 0 auto;
     width: 80%;
 }
+.s-fp--a-CardProject {width: 30%;}
 .s-fp__art:nth-child(2) {padding-top: 3rem}
 .s-fp__div { width: 50%; }
 .s-fp__div--h1 {
@@ -23,8 +24,6 @@
     font-weight: 500;
 }
 .s-fp__art--a {
-    /* background-color: var(--yellow); */
-
     background: rgba(240,201,45,1);
     background: -moz-linear-gradient(-45deg, rgba(240,201,45,1) 0%, rgba(255,168,38,1) 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(240,201,45,1)), color-stop(100%, rgba(255,168,38,1)));

@@ -1,25 +1,11 @@
 import RoundBtn from "../RoundBtn/RoundBtn";
 import './Header.css';
+import Nav from "../Layout/Nav/Nav";
 
 export default function Header () {
     return (
-        <header className="h" style={{ backgroundImage: "url(/image/banner.jpg)" }}>
-            <nav className="h__nav">
-                <figure className="h__fig">
-                    <img className="h__fig--img" src="/image/logo.png" />
-                </figure>
-                <ul className="h__ul">
-                    <li className="h__ul--li">
-                        <a className="h__li--a" href="">Buscar</a>
-                    </li>
-                    <li className="h__ul--li">
-                        <a className="h__li--a" href="">Registrar</a>
-                    </li>
-                    <li className="h__ul--li">
-                        <a className="h__li--a" href="">Iniciar sesión</a>
-                    </li>
-                </ul>
-            </nav>
+        <header className="h">
+            <Nav />
             <section className="s-header">
                 <article className="s-header__art">
                     <h1 className="s-header__art--h1">Banco de ideas</h1>
@@ -32,6 +18,7 @@ export default function Header () {
                     </div>            
                 </article>
             </section>
+            <video src="/image/video.mp4" autoplay="1"></video>
         </header>
     ); 
 } 

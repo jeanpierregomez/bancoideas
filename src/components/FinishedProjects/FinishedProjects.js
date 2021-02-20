@@ -28,7 +28,7 @@ export default function FinishedProjects() {
 			</article>
 			<article className="s-fp__art">
 				{finishedProjects.map((project, index) => (
-					<CardProject key={index} project={project} />
+					<a className="s-fp--a-CardProject" href="#"><CardProject key={index} project={project} /></a>
 				))}
 			</article>
 		</section>

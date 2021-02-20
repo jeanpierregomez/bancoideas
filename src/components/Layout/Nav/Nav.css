@@ -1,0 +1,31 @@
+.h__nav {
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    width: 80%;
+}
+.h__fig {
+    display: flex;
+    margin-right: 20px;
+    width: 120px;
+}
+.h__fig--img { width: 100%; }
+.h__ul {
+    display: flex;
+    list-style: none;
+}
+.h__ul--li {
+    margin-right: 25px;
+    border-bottom: 3px solid transparent;
+    padding: 4px 0;
+    transition: .5s;
+}
+.h__ul--li:hover {
+    border-color: var(--yellow);
+}
+.h__ul--li:last-child { margin-right: 0; }
+.h__li--a { color: #ffffff; font-weight: 600;}

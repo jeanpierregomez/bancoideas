@@ -16,7 +16,7 @@ export default function CurrentProjects() {
 				<h1 className="s-cp__h1">Proyectos en ejecución</h1>
 				{finishedProjects.map((project, index) => {
 					if (index <= 1)
-						return <CardProjectFull key={index} project={project} />;
+						return <a href=""><CardProjectFull key={index} project={project} /></a>;
 				})}
 			</article>
 		</section>

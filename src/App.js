@@ -1,6 +1,9 @@
 import "./App.css";
-import Index from "./pages/home/index";
+import index from "./pages/home/index";
+import login from "./pages/login/index";
+import register from "./pages/registerUser/index";
 import { useRef } from "react";
+import { Link, Route } from "wouter";
 
 export default function App() {
 	const cursor = useRef(null);
@@ -21,7 +24,9 @@ export default function App() {
 	return (
 		<div className="App">
 			<div className="cursor" ref={cursor}></div>
-			<Index />
+			<Route path="/" component={index} />
+			<Route path="/login" component={login} />
+			<Route path="/signup" component={register} />
 		</div>
 	);
 }

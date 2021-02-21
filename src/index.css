@@ -19,6 +19,7 @@
 a {text-decoration: none;}
 body {
   overflow-x: hidden;
+  position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -1,0 +1,30 @@
+.f__login-signup {
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+    padding-bottom: 3rem;
+    position: fixed;
+    width: 265px;
+    z-index: 1;
+}
+.f-ls__ul {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+.f-ls__ul--li { list-style: none; }
+.f-ls__ul a { margin-bottom: 25px; }
+.f-ls__ul a:last-child { margin-bottom: 0; }
+.f-ls__ul--li i {
+    color: #ffffff;
+    font-size: 25px;
+}
+.f-ls__ul--li i:hover {color: var(--yellow);}
+.f__login-signup--a, .f__div--p {
+    color: #ffffff;
+    font-weight: bold;
+}
+.f__login-signup--a { color: #8f8f8f; }
+.f__login-signup--a:hover { text-decoration: underline; }
+.f__login-signup--p {color: #ffffff; font-weight: 600;}

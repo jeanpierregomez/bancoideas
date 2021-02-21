@@ -1,6 +1,7 @@
 .s-fl {
-    background-color: var(--black);
+    position: relative;
     width: 550px;
+    z-index: 1;
 }
 .s-fl--h1 {
     color: #ffffff;
@@ -56,7 +57,7 @@
     transition: .3s;
     width: 120px;
 }
-.s-fl__div--btn:hover {background-color: #29abe2; color: #ffffff}
+.s-fl__div--btn:hover {background-color: #929292; color: #ffffff}
 .s-fl__div--a { color: #ffffff; }
 .s-fl__div--a:hover { text-decoration: underline; }
     

@@ -5,7 +5,12 @@
     margin: 0 auto;
     padding: 65px 0;
     width: 90%;
+    max-width: 1440px;
 }
 .fa-caret-square-left { cursor: pointer; font-size: 3rem; margin-right: 20px; }
 .fa-caret-square-right { cursor: pointer; font-size: 3rem; margin-left: 20px; }
 .fa-caret-square-right:hover, .fa-caret-square-left:hover {color: var(--yellow)}
+
+@media (max-width: 768px) {
+    .fa-caret-square-right, .fa-caret-square-left {font-size: 1.5rem;}
+}

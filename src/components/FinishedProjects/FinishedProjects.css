@@ -5,13 +5,19 @@
 }
 .s-fp__art {
     align-items: center;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 auto;
     width: 80%;
+    max-width: 1440px;
 }
-.s-fp--a-CardProject {width: 30%;}
-.s-fp__art:nth-child(2) {padding-top: 3rem}
+.s-fp__art:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 3fr));
+    padding-top: 3rem;
+    grid-gap: 30px;
+}
 .s-fp__div { width: 50%; }
 .s-fp__div--h1 {
     font-size: 2rem;
@@ -40,3 +46,11 @@
     width: 60px;
 }
 .s-fp__art--a i { font-size: 40px; }
+@media (max-width: 768px) {
+    .s-fp__art {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .s-fp__div { width: 100%; }
+    .s-fp__art--a {display: none;}
+}

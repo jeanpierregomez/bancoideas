@@ -6,10 +6,16 @@
     padding: 5rem 0;
     margin: 0 auto;
     width: 80%;
+    max-width: 1440px;
 }
 .s-cp__h1 {
     color: #ffffff;
     font-size: 2rem;
     font-weight: 600;
     line-height: 2rem;
+}
+@media (max-width: 768px) {
+    .s-cp__fig {flex-direction: column;}
+    .s-cp__fig--img {width: 100%;}
+    .s-cp__figcaption {padding: 1.5rem; width: 100%;}
 }

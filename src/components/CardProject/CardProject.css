@@ -26,3 +26,6 @@
     line-height: 20px;
     text-align: justify;
 }
+@media (max-width: 768px) {
+    .s-fp__figcaption--h2 { font-size: 1.2rem; line-height: 1.4rem;}
+}

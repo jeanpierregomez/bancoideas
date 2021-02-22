@@ -5,6 +5,7 @@
     margin: 0 auto;
     padding: 3rem 0;
     width: 80%;
+    max-width: 1440px;
 }
 .f__content--img { height: 45px; }
 .f__div {
@@ -27,3 +28,19 @@
 }
 .f__div--a { color: #8f8f8f; }
 .f__div--a:hover { text-decoration: underline; }
+
+@media (max-width: 1040px) {
+    
+}
+@media (max-width: 725px) {
+    
+}
+@media (max-width: 425px) {
+
+}
+@media (max-width: 375px) {
+
+}
+@media (max-width: 320px) {
+
+}

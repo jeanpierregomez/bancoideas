@@ -2,6 +2,8 @@ import "./App.css";
 import index from "./pages/home/index";
 import login from "./pages/login/index";
 import register from "./pages/registerUser/index";
+import projectList from "./pages/projectList/index";
+
 import { useRef } from "react";
 import { Link, Route } from "wouter";
 
@@ -27,6 +29,7 @@ export default function App() {
 			<Route path="/" component={index} />
 			<Route path="/login" component={login} />
 			<Route path="/signup" component={register} />
+			<Route path="/project-list" component={projectList} />
 		</div>
 	);
 }

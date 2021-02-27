@@ -1,7 +1,12 @@
 .m-pl__list {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(420px, 3fr));
+	grid-template-columns: repeat(auto-fill, minmax(280px, 3fr));
 	padding-top: 2rem;
 	column-gap: 30px;
 	row-gap: 4rem;
+}
+@media (min-width: 1440px) {
+	.m-pl__list {
+		grid-template-columns: repeat(auto-fill, minmax(390px, 3fr));
+	}
 }

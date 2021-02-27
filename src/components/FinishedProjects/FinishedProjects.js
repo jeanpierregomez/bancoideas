@@ -26,7 +26,7 @@ export default function FinishedProjects() {
 					<i className="fas fa-plus"></i>
 				</a>
 			</article>
-			<article className="s-fp__art nueva-clase">
+			<article className="s-fp__art ">
 				{finishedProjects.map((project, index) => {
 					if (index < 3) return <CardProject project={project} />;
 				})}

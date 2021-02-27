@@ -12,11 +12,14 @@ export default function index() {
 					<article className="m-pl__h">
 						<h1 className="m-pl__h--h1">Lista de proyectos</h1>
 						<div className="m-pl__search">
-							<input
-								className="m-pl__search--input"
-								placeholder="Buscar proyecto"
-							/>
-							<button className="m-pl__search--btn">Categorías</button>
+							<label className="m-pl__label">
+								<i class="fas fa-search t-white"></i>
+								<input
+									className="m-pl__label--input"
+									placeholder="Buscar proyecto"
+									/>
+							</label>
+							<button className="m-pl__search--btn">Buscar</button>
 						</div>
 					</article>
 					<ProjectList></ProjectList>

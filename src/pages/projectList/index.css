@@ -18,31 +18,34 @@
 	font-size: 1.8rem;
 	font-weight: 600;
 }
-.m-pl__search {
-	display: flex;
-	width: 25%;
-}
-.m-pl__search--input {
-	background-color: var(--black);
-	border: 2px solid var(--yellow);
+.m-pl__search {display: flex;}
+.m-pl__label {
+	align-items: center;
 	border-radius: 5px;
-	color: #ffffff;
-	outline: none;
-	padding: 0.8rem;
+	border: 3px solid var(--yellow);
+	display: flex; 
 	margin-right: 10px;
-	width: 70%;
+	padding: 0.5rem;
+	width: 200px;
 }
-.m-pl__search--input::-webkit-input-placeholder {
+.m-pl__label--input {
+	background-color: var(--black);
 	color: #ffffff;
+	margin-left: 5px;
+	outline: none;
 }
+.m-pl__label--input::-webkit-input-placeholder {color: #ffffff;}
 .m-pl__search--btn {
 	background-color: var(--yellow);
-	color: #000000;
-	font-weight: bold;
-	padding: 0.8rem;
 	border-radius: 3px;
-	width: 30%;
+	cursor: pointer;
+	color: #000000;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0 1rem;
+	transition: .5s;
 }
+.m-pl__search--btn:hover {background-color: #ffffff}
 .m-pl__pag {
 	display: flex;
 	margin: 4rem auto;

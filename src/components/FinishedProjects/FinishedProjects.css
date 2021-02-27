@@ -12,7 +12,7 @@
 	width: 80%;
 	max-width: 1440px;
 }
-.nueva-clase {
+.s-fp__art:nth-child(2) {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(280px, 3fr));
 	padding-top: 3rem;
@@ -73,15 +73,11 @@
 	width: 60px;
 	transition: 0.4s;
 }
-.s-fp__art--a:hover {
-	transform: scale(1.2);
-}
-.s-fp__art--a i {
-	font-size: 40px;
-}
-@media (max-width: 1440px) {
-	.nueva-clase {
-		grid-template-columns: repeat(390px, 3fr);
+.s-fp__art--a:hover {transform: scale(1.2); }
+.s-fp__art--a i { font-size: 40px; }
+@media (min-width: 1440px) {
+	.s-fp__art:nth-child(2) {
+		grid-template-columns: repeat(auto-fill, minmax(390px, 3fr));
 	}
 }
 @media (max-width: 768px) {

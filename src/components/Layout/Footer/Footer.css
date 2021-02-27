@@ -20,8 +20,10 @@
 .f__ul--li i {
     color: #ffffff;
     font-size: 25px;
+    cursor: none;
+    transition: .4s;
 }
-.f__ul--li i:hover {color: var(--yellow);}
+.f__ul--li i:hover {color: var(--yellow); transform: translateY(-5px);}
 .f__div--a, .f__div--p {
     color: #ffffff;
     font-weight: bold;

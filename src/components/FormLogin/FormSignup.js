@@ -1,6 +1,6 @@
-import "./FormRegisterLogin.css"
+import "./FormLogin.css";
 
-export default function FormRegister() {
+export default function FormSignup() {
 	return (
 		<section className="s-fl">
 			<h1 className="s-fl--h1">Registro de</h1>
@@ -45,8 +45,12 @@ export default function FormRegister() {
 					></input>
 				</div>
 				<div className="s-fl__div">
-					<button className="s-fl__div--btn" type="button">Registrar</button>
-					<a className="s-fl__div--a" href="/#">Ya tengo cuenta.</a>
+					<button className="s-fl__div--btn" type="button">
+						Registrar
+					</button>
+					<a className="s-fl__div--a" href="/#">
+						Ya tengo cuenta.
+					</a>
 				</div>
 			</form>
 		</section>

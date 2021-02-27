@@ -1,6 +1,6 @@
-import "./FormRegisterLogin.css"
+import "./FormLogin.css";
 
-export default function FormLogin() {
+export default function FormSignin() {
 	return (
 		<section className="s-fl">
 			<h1 className="s-fl--h1">Iniciar</h1>
@@ -21,8 +21,12 @@ export default function FormLogin() {
 					></input>
 				</div>
 				<div className="s-fl__div">
-					<button className="s-fl__div--btn" type="button">Entrar</button>
-					<a className="s-fl__div--a" href="/#">Recuperar contraseña.</a>
+					<button className="s-fl__div--btn" type="button">
+						Entrar
+					</button>
+					<a className="s-fl__div--a" href="/#">
+						Recuperar contraseña.
+					</a>
 				</div>
 			</form>
 		</section>

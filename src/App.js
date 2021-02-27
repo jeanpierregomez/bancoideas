@@ -1,7 +1,7 @@
 import "./App.css";
 import index from "./pages/home/index";
-import login from "./pages/login/index";
-import register from "./pages/registerUser/index";
+import signin from "./pages/login/signin";
+import signup from "./pages/login/signup";
 import projectList from "./pages/projectList/index";
 
 import { useRef } from "react";
@@ -27,8 +27,8 @@ export default function App() {
 		<div className="App">
 			<div className="cursor" ref={cursor}></div>
 			<Route path="/" component={index} />
-			<Route path="/login" component={login} />
-			<Route path="/signup" component={register} />
+			<Route path="/login" component={signin} />
+			<Route path="/signup" component={signup} />
 			<Route path="/project-list" component={projectList} />
 		</div>
 	);

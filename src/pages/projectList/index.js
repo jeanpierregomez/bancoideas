@@ -1,12 +1,12 @@
 import Footer from "../../components/Layout/Footer/Footer";
-import Nav from "../../components/Layout/Nav/Nav";
+import MainHeader from "../../components/Layout/MainHeader/MainHeader";
 import ProjectList from "../../components/ProjectList/ProjectList";
 import "./index.css";
 
 export default function index() {
 	return (
 		<>
-			<Nav></Nav>
+			<MainHeader></MainHeader>
 			<main className="m-pl">
 				<section className="m-pl__s">
 					<ProjectList></ProjectList>

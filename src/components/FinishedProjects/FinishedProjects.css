@@ -12,7 +12,7 @@
 	width: 80%;
 	max-width: 1440px;
 }
-.s-fp__art:nth-child(2) {
+.nueva-clase {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(280px, 3fr));
 	padding-top: 3rem;
@@ -78,6 +78,11 @@
 }
 .s-fp__art--a i {
 	font-size: 40px;
+}
+@media (max-width: 1440px) {
+	.nueva-clase {
+		grid-template-columns: repeat(390px, 3fr);
+	}
 }
 @media (max-width: 768px) {
 	.s-fp__art {

@@ -26,10 +26,10 @@ export default function FinishedProjects() {
 					<i className="fas fa-plus"></i>
 				</a>
 			</article>
-			<article className="s-fp__art">
-				{finishedProjects.map((project, index) => (
-					<a className="s-fp--a-CardProject" href="#" key={index}><CardProject  project={project} /></a>
-				))}
+			<article className="s-fp__art nueva-clase">
+				{finishedProjects.map((project, index) => {
+					if (index < 3) return <CardProject project={project} />;
+				})}
 			</article>
 		</section>
 	);

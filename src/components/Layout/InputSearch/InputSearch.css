@@ -6,6 +6,7 @@
 .is-div__lbl {
 	align-items: center;
 	display: flex;
+	width: 18rem;
 }
 .is-div__lbl i {
 	color: #ffffff;
@@ -20,4 +21,12 @@
 
 .is-div__lbl--input::-webkit-input-placeholder {
 	color: #ffffff;
+}
+.is-div > i {
+	align-items: center;
+	background-color: var(--yellow);
+	display: flex;
+	justify-content: center;
+	height: 36px;
+	width: 36px;
 }

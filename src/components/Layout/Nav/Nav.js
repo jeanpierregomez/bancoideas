@@ -5,26 +5,35 @@ export default function Nav() {
   return (
     <nav className="h__nav">
       <figure className="h__fig">
-        <img className="h__fig--img" src="/image/logo.png" />
+        <Link href="/">
+          <img className="h__fig--img" src="/image/logo.png" />
+        </Link>
       </figure>
       <ul className="h__ul">
         <li className="h__ul--li">
-          <a className="h__li--a" href="">
+          <p className="h__li--a" href="">
             Buscar
-          </a>
+          </p>
         </li>
         <li className="h__ul--li">
           <Link href="/signup">
-            <a className="h__li--a">
+            <p className="h__li--a">
               Registrarse
-            </a>
+            </p>
           </Link>
         </li>
         <li className="h__ul--li">
           <Link href="/login">
-            <a className="h__li--a" href="">
+            <p className="h__li--a" href="">
               Iniciar sesión
-            </a>
+            </p>
+          </Link>
+        </li>
+        <li className="h__ul--li">
+          <Link href="/project-list">
+            <p className="h__li--a" href="">
+              Proyectos
+            </p>
           </Link>
         </li>
       </ul>

@@ -1,4 +1,5 @@
 import "./FooterTwo.css";
+import { Link, Route } from "wouter";
 
 export default function FooterTwo () {
     return (
@@ -6,22 +7,22 @@ export default function FooterTwo () {
             <ul className="f-ls__ul">
             <a href="" target="_blank">
                 <li className="f-ls__ul--li">
-                <i className="fab fa-instagram"></i>
+                    <i className="fab fa-instagram"></i>
                 </li>
             </a>
             <a href="" target="_blank">
                 <li className="f-ls__ul--li">
-                <i className="fab fa-facebook-f"></i>
+                    <i className="fab fa-facebook-f"></i>
                 </li>
             </a>
             <a href="" target="_blank">
                 <li className="f-ls__ul--li">
-                <i className="fab fa-twitter"></i>
+                    <i className="fab fa-twitter"></i>
                 </li>
             </a>
             <a href="" target="_blank">
                 <li className="f-ls__ul--li">
-                <i className="fab fa-youtube"></i>
+                    <i className="fab fa-youtube"></i>
                 </li>
             </a>
             </ul>

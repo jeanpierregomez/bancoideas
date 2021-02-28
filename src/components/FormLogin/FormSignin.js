@@ -3,8 +3,8 @@ import "./FormLogin.css";
 export default function FormSignin() {
 	return (
 		<section className="s-fl">
-			<h1 className="s-fl--h1">Iniciar</h1>
-			<h1 className="s-fl--h1">Sesión</h1>
+			<h1 className="s-fl--h1">Ingresa a</h1>
+			<h1 className="s-fl--h1">Ideas bank</h1>
 			<form className="s-fl__form">
 				<div className="s-fl__div">
 					<input

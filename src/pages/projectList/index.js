@@ -13,11 +13,11 @@ export default function index() {
 						<h1 className="m-pl__h--h1">Lista de proyectos</h1>
 						<div className="m-pl__search">
 							<label className="m-pl__label">
-								<i class="fas fa-search t-white"></i>
+								<i className="fas fa-search t-white"></i>
 								<input
 									className="m-pl__label--input"
 									placeholder="Buscar proyecto"
-									/>
+								/>
 							</label>
 							<button className="m-pl__search--btn">Buscar</button>
 						</div>

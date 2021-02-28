@@ -1,0 +1,23 @@
+.is-div {
+	background-color: var(--black);
+	border: 2px solid var(--yellow);
+	display: flex;
+}
+.is-div__lbl {
+	align-items: center;
+	display: flex;
+}
+.is-div__lbl i {
+	color: #ffffff;
+	margin-left: 10px;
+}
+.is-div__lbl--input {
+	background-color: var(--black);
+	padding: 0.5rem;
+	color: #ffffff;
+	outline: none;
+}
+
+.is-div__lbl--input::-webkit-input-placeholder {
+	color: #ffffff;
+}

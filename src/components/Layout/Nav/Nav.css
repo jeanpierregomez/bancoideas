@@ -14,9 +14,7 @@
 	margin-right: 20px;
 	width: 120px;
 }
-.h__fig--img {
-	width: 100%;
-}
+.h__fig--img {cursor: pointer; width: 100%;}
 .h__ul {
 	display: flex;
 	list-style: none;
@@ -27,13 +25,10 @@
 	padding: 4px 0;
 	transition: 0.5s;
 }
-.h__ul--li:hover {
-	border-color: var(--yellow);
-}
-.h__ul--li:last-child {
-	margin-right: 0;
-}
+.h__ul--li:hover {border-color: var(--yellow);}
+.h__ul--li:last-child { margin-right: 0; }
 .h__li--a {
 	color: #ffffff;
+	cursor: pointer;
 	font-weight: 600;
 }

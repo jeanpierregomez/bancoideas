@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { Link, Route } from "wouter";
 
 export default function Footer() {
 	return (

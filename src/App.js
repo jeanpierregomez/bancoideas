@@ -1,11 +1,13 @@
 import "./App.css";
+import editProfile from "./pages/user/editProfile";
 import index from "./pages/home/index";
 import signin from "./pages/login/signin";
 import signup from "./pages/login/signup";
 import projectList from "./pages/projectList/index";
 
 import { useRef } from "react";
-import { Link, Route } from "wouter";
+import { Route } from "wouter";
+import createProject from "./pages/user/createProject";
 
 export default function App() {
 	const cursor = useRef(null);
@@ -30,6 +32,8 @@ export default function App() {
 			<Route path="/login" component={signin} />
 			<Route path="/signup" component={signup} />
 			<Route path="/project-list" component={projectList} />
+			<Route path="/create-project" component={createProject} />
+			<Route path="/edit-profile" component={editProfile} />
 		</div>
 	);
 }

@@ -1,0 +1,27 @@
+.a-panel {
+	background-color: var(--gray);
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	padding: 2rem 1rem 2rem 2.5rem;
+	width: 40%;
+}
+.a-panel--h2 {
+	color: #ffffff;
+	font-size: 0.9rem;
+	font-weight: 500;
+	padding: 0.3rem 0.6rem;
+}
+.a-panel__ul {
+	margin-top: 1.7rem;
+	list-style: none;
+}
+.a-panel__ul li {
+	background-color: transparent;
+	color: var(--lightgray);
+	font-size: 0.75rem;
+	padding: 0.3rem 0.6rem;
+	transition: 0.2s;
+}
+.a-panel__ul li:hover {
+	background-color: #393c43;
+}
